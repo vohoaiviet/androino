@@ -1,0 +1,23 @@
+#summary How to connect Android and Arduino through the audio channel
+
+= Androino Terminal =
+
+Add your content here.
+
+==Required parts==
+# Arduino
+# Android >1.5
+# Audio cable connector
+# Sparkfun 
+
+==Hardware setup==
+* Schematics
+* Connecting wires
+
+== Software setup ==
+* Arduino: Androino Terminal sketch
+* Android: Androino Terminal app installation
+
+== Putting all together ==
+* 
+* Video
