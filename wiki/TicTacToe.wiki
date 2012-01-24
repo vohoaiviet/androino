@@ -1,0 +1,22 @@
+#summary Demonstration application of the androino library.
+
+
+
+= Introduction =
+
+Add your content here.
+
+
+= Hardware =
+ * Parts
+ * Schematic
+ * 
+
+= Software =
+ * Arduino sofware
+ * Android software
+ * Server software
+
+= Playing the game = 
+
+ * Video
