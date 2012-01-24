@@ -18,4 +18,4 @@ http://code.google.com/p/androino/logo?cct=1318367085.png
 = Playing the game = 
 
  * Video
-<wiki:video url="www.youtube.com/watch?v=ijctLGpxzl0"/>
+<wiki:video url="http://www.youtube.com/watch?v=ijctLGpxzl0"/>
