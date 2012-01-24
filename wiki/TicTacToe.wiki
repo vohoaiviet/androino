@@ -1,10 +1,8 @@
-#summary Demonstration application of the androino library.
+#summary Demonstration application for the androino library.
 
+An implementation of the Tic-tac-toe game where two players can play the game remotely.
 
-
-= Introduction =
-
-Add your content here.
+http://code.google.com/p/androino/logo?cct=1318367085
 
 
 = Hardware =
