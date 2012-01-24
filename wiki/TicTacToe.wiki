@@ -2,7 +2,7 @@
 
 An implementation of the Tic-tac-toe game where two players can play the game remotely.
 
-http://code.google.com/p/androino/logo?cct=1318367085
+http://code.google.com/p/androino/logo?cct=1318367085.png
 
 
 = Hardware =
