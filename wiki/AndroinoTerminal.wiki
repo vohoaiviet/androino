@@ -10,14 +10,18 @@ Add your content here.
  * Audio cable connector
  * Sparkfun 
 
-==Hardware setup==
- * Schematics
- * Connecting wires
-
 https://lh6.googleusercontent.com/-GLXbM3CiB-s/TzlwdwntQVI/AAAAAAAAAL4/Mx8DpniLyLw/s400/ArduinoProMini.jpg
 
 https://lh5.googleusercontent.com/-XN-4_gi40uE/TzlwBRESRhI/AAAAAAAAALU/xtNPpuqYaCA/s512/10331-01.jpg
 
+
+==Hardware setup==
+ * Schematics
+ * Connecting wires
+
+FSK OUT = D5
+FSK IN  = D6
+VREF    = D7
 
 == Software setup ==
 
