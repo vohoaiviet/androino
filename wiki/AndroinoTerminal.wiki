@@ -14,6 +14,8 @@ Add your content here.
  * Schematics
  * Connecting wires
 
+https://lh6.googleusercontent.com/-GLXbM3CiB-s/TzlwdwntQVI/AAAAAAAAAL4/Mx8DpniLyLw/s400/ArduinoProMini.jpg
+
 == Software setup ==
 
  * Arduino: Androino Terminal sketch
