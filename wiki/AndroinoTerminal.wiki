@@ -20,8 +20,11 @@ https://lh5.googleusercontent.com/-XN-4_gi40uE/TzlwBRESRhI/AAAAAAAAALU/xtNPpuqYa
  * Connecting wires
 
 FSK OUT = D5
+
 FSK IN  = D6
+
 VREF    = D7
+
 
 == Software setup ==
 
