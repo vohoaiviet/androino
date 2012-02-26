@@ -53,28 +53,16 @@ https://lh3.googleusercontent.com/--UDgopg2tYQ/T0ox7WJXAoI/AAAAAAAAAMk/G0pIGi1VM
 ===Arduino===
 Go to source code.
 
-===Android===
-The Android app starts a thread object that continuously records sound (ArduinoService). The sound is processed by a secondary thread (FSKDecoder). The decoded information is delivered to the user interface (MainActivity) as messages using an Android _Handler_ object.
-
-The main classes and methods are summarized below:
-
- * ArduinoService: Main library thread object (sound acquisition)
-   ** AudioRecordingRun(): loop that records sound
-   ** write(int): encodes the integer and plays the sound signal.
- * FSKDecoder: Thread object that demodulates the sound signal.
- * FSKModule: Utility static methods related to FSK modulation/demodulation.
-   ** encode(int): encodes the number into a sound signal 
-   ** decodeSound(double[]): decodes the sound signal into an integer
- 
 ===Error correction===
 The application implements a simple error correction mechanism. Before transmission the number(between 0 and 31) is added with a checksum. Then at the reception, the message is decoded and if checksum check:
 
  * fails: an ARQ (Automatic Request Query) code is sent, then the sender repeats the last message sent.
  * agrees: an ACK (Acknowledgment) code is sent (if not received the sender tries to the send the last message again).
 
-See some code extract form SoftTerm.pde
+See some code extract 
 
 {{{
+SofTerm.pde sketch
 
 #define CODE_REPEAT_LAST_MESSAGE    20
 #define CODE_ACK_MESSAGE            21
@@ -112,4 +100,3 @@ int decodeMessage(int message){
 }
 
 }}}
-
