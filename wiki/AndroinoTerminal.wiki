@@ -72,7 +72,7 @@ The application implements a simple error correction mechanism. Before transmiss
  * fails: an ARQ (Automatic Request Query) code is sent, then the sender repeats the last message sent.
  * agrees: an ACK (Acknowledgment) code is sent (if not received the sender tries to the send the last message again).
 
-See, the 
+See some code extract form _SoftTerm.pde_
 
 {{{
 int encodeMessage(int number){
@@ -105,8 +105,6 @@ int decodeMessage(int message){
 }
 
 }}}
-
-
 
 
 
