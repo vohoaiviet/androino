@@ -25,10 +25,9 @@ VREF    = D7
 == Software setup ==
 
 === Arduino sketch ===
-Download and install into the arduino board the [http://androino.googlecode.com/svn-history/r85/trunk/arduino/SoftTerm/SoftTerm.pde Androino Terminal sketch  
-].
+Download and install into the arduino board the [http://androino.googlecode.com/svn-history/r85/trunk/arduino/SoftTerm/SoftTerm.pde Androino Terminal sketch].
 
-=== Android APP
+=== Android APP===
 Install the Ardroino Terminal app into the mobile phone.
 
 
