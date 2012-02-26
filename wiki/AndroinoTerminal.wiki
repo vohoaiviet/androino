@@ -67,11 +67,12 @@ The main classes and methods are summarized below:
    ** decodeSound(double[]): decodes the sound signal into an integer
  
 ===Error correction===
-The application implements a simple error correction mechanism. Each message is 
+The application implements a simple error correction mechanism. Before transmission the number(between 0 and 31) is added with a _checksum_ . Then at the reception, the message is decoded and if checksum check:
 
-ARQ (Automatic Request Query)
-ACK (Acknowledgment)
+ * fails: an ARQ (Automatic Request Query) code is sent, then the sender repeats the last message sent.
+ * agrees: an ACK (Acknowledgment) code is sent (if not received the sender tries to the send the last message again).
 
+See, the 
 
 {{{
 int encodeMessage(int number){
@@ -81,6 +82,28 @@ int encodeMessage(int number){
   int msg = number + cSum;
   return msg;
 }
+
+int checkSum(int number){
+  // calculates the checkSum for error correction
+  // simple implementation even => 010, odd =>001
+  ...
+  if (sign>0)
+    return PARITY_EVEN;
+  else 
+    return PARITY_ODD; 
+}
+
+int decodeMessage(int message){
+  // Message format: 111.11111 (3bits=checksum 5bits=information)
+  int number = B00011111 & message; //extract number from message 
+  int chk =    B11100000 & message;  //extract checksum from message
+  int cSum = checkSum(number);
+  if ( chk != cSum) {
+    return MESSAGE_CHECKSUM_ERROR; // erroneus message received
+  } else
+    return number;
+}
+
 }}}
 
 
