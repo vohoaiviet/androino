@@ -33,7 +33,6 @@ Download and install into the arduino board the [http://androino.googlecode.com/
 === Android APP===
 Install the Ardroino Terminal app into the mobile phone.
 
-
 == Putting all together ==
 
 Once you have everything installed, to run the application:
@@ -43,6 +42,10 @@ Once you have everything installed, to run the application:
  # Open the Arduino IDE Serial Monitor
  # Start the the android App and push START/STOP button
 
+Then, you can send messages  from android to arduino and viceversa. 
+
 https://lh6.googleusercontent.com/-R4N2ry6loLc/T0ox3BQniXI/AAAAAAAAAMc/wbdeFM_8rxc/s569/ard_serial_monitor.png
 
 https://lh3.googleusercontent.com/--UDgopg2tYQ/T0ox7WJXAoI/AAAAAAAAAMk/G0pIGi1VMRc/s560/and_terminal.jpg
+
+== Putting all together ==
