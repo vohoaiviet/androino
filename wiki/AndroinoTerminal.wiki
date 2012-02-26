@@ -1,5 +1,8 @@
 #summary How to connect Android and Arduino through the audio channel
 
+RELEASE NOT COMPLETED!! AVAILABLE SOON.
+
+
 = Androino Terminal =
 
 This application provides a basic example of the software that allows to communicate an android mobile phone with an arduino board. You can modify it at your convenience.
@@ -34,10 +37,6 @@ Install the Ardroino Terminal app into the mobile phone.
 == Putting all together ==
 
 Once you have everything installed, to run the application:
-# Connect all the wires
-# Power on the arduino board
-# Open 
-
-
- * How to run the application
- * Video
+* Connect all the wires
+* Power on the arduino board
+* Open the Arduino ÏDE Serial Monitor
