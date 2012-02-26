@@ -8,19 +8,16 @@ This application provides a basic example of the software that allows to communi
  * [http://arduino.cc/en/Main/Hardware Arduino board]. Tested with Pro Mini and Duemilanove boards.
  * Android mobile phone (minimum version 1.6) 
  * Sparkfun's [http://www.sparkfun.com/products/10331 Audio jack modem for android] 
- * Audio cable connector (for instance [http://www.amazon.com/Stereo-Circuit-ThinLine-Audio-Cable/dp/B004QOUGV4 TRRS audio cable]
-
+ * Audio cable connector (for instance [http://www.amazon.com/Stereo-Circuit-ThinLine-Audio-Cable/dp/B004QOUGV4 TRRS audio cable])
 
 ==Hardware setup==
- * Schematics
- * Connecting wires
+{{{
+Pin mappings ( Modem board / Arduino pins)
 
 FSK OUT = D5
-
 FSK IN  = D6
-
 VREF    = D7
-
+}}}
 
 == Software setup ==
 
