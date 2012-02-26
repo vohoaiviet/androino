@@ -51,10 +51,10 @@ https://lh3.googleusercontent.com/--UDgopg2tYQ/T0ox7WJXAoI/AAAAAAAAAMk/G0pIGi1VM
 == Understanding the source code ==
 
 ===Arduino===
-Check library developer documentation.
+Go to source code.
 
 ===Android===
-The Android app starts a thread object that continuously records sound (_ArduinoService_ ). The sound is processed by a secondary thread (_FSKDecoder_ ). The decoded information is delivered to the user interface (_MainActivity_ ) as messages using an Android _Handler_ object.
+The Android app starts a thread object that continuously records sound (ArduinoService). The sound is processed by a secondary thread (FSKDecoder). The decoded information is delivered to the user interface (MainActivity) as messages using an Android _Handler_ object.
 
 The main classes and methods are summarized below:
 
@@ -112,6 +112,4 @@ int decodeMessage(int message){
 }
 
 }}}
-
-
 
