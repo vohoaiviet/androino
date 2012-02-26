@@ -10,7 +10,8 @@ Add your content here.
  * Audio cable connector
  * Sparkfun 
 
-https://lh6.googleusercontent.com/-GLXbM3CiB-s/TzlwdwntQVI/AAAAAAAAAL4/Mx8DpniLyLw/s400/ArduinoProMini.jpg
+<img width="100px"
+src="https://lh6.googleusercontent.com/-GLXbM3CiB-s/TzlwdwntQVI/AAAAAAAAAL4/Mx8DpniLyLw/s400/ArduinoProMini"/>
 
 https://lh5.googleusercontent.com/-XN-4_gi40uE/TzlwBRESRhI/AAAAAAAAALU/xtNPpuqYaCA/s512/10331-01.jpg
 
