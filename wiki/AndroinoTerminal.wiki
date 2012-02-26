@@ -55,6 +55,8 @@ Go to source code.
 
 ===Android===
 
+The Android app starts a thread object that continuously records sound ArduinoService. The sound is processed by a secondary thread FSKDecoder. The decoded information is delivered to the user interface MainActivity as messages using an Android Handler object.
+
 The main classes and methods are summarized below:
 
  * ArduinoService: Main library thread object (sound acquisition)
