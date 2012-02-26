@@ -48,4 +48,23 @@ https://lh6.googleusercontent.com/-R4N2ry6loLc/T0ox3BQniXI/AAAAAAAAAMc/wbdeFM_8r
 
 https://lh3.googleusercontent.com/--UDgopg2tYQ/T0ox7WJXAoI/AAAAAAAAAMk/G0pIGi1VMRc/s560/and_terminal.jpg
 
-== Putting all together ==
+== Understanding the source code ==
+
+===Android===
+The Android app starts a thread object that continuously records sound (_ArduinoService_) and 
+
+The main classes and methods are summarized below:
+
+ * ArduinoService: Main library thread object.
+   ** AudioRecordingRun(): loop that records sound
+   ** write(): 
+ * FSKDecoder: Thread object that demodulates the sound signal.
+   ** write(): 
+   ** write(): 
+ * FSKModule: Utility static methods related to FSK modulation/demodulation.
+   ** encode(int):
+   ** decodeSound(double[]): 
+ 
+
+
+===Error correction===
