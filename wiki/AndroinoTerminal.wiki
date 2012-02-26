@@ -14,6 +14,7 @@ https://lh5.googleusercontent.com/-NmJrOtfby0E/T0of14vDI1I/AAAAAAAAAMM/X9vIHBPKT
  * Audio cable connector (for instance [http://www.amazon.com/Stereo-Circuit-ThinLine-Audio-Cable/dp/B004QOUGV4 TRRS audio cable])
 
 ==Hardware setup==
+https://lh3.googleusercontent.com/-vV07n42240k/T0of1UR7JoI/AAAAAAAAAMI/x_IiciRR5nY/s564/connection.png
 {{{
 Pin mappings ( Modem board / Arduino pins)
 
