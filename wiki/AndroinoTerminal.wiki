@@ -66,5 +66,26 @@ The main classes and methods are summarized below:
    ** encode(int): encodes the number into a sound signal 
    ** decodeSound(double[]): decodes the sound signal into an integer
  
-
 ===Error correction===
+The application implements a simple error correction mechanism. Each message is 
+
+ARQ (Automatic Request Query)
+ACK (Acknowledgment)
+
+
+{{{
+int encodeMessage(int number){
+  // adds the checksum
+  // Example: 3 (000.00011) => (101.00011)
+  int cSum = checkSum(number);
+  int msg = number + cSum;
+  return msg;
+}
+}}}
+
+
+
+
+
+
+
