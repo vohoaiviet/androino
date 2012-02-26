@@ -33,5 +33,11 @@ Install the Ardroino Terminal app into the mobile phone.
 
 == Putting all together ==
 
+Once you have everything installed, to run the application:
+# Connect all the wires
+# Power on the arduino board
+# Open 
+
+
  * How to run the application
  * Video
