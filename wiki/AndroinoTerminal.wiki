@@ -4,6 +4,9 @@
 
 This application provides a basic example of the software that allows to communicate an android mobile phone with an arduino board. You can modify it at your convenience.
 
+https://lh5.googleusercontent.com/-NmJrOtfby0E/T0of14vDI1I/AAAAAAAAAMM/X9vIHBPKTtg/s539/Dibujo.PNG
+
+
 ==Required parts==
  * [http://arduino.cc/en/Main/Hardware Arduino board]. Tested with Pro Mini and Duemilanove boards.
  * Android mobile phone (minimum version 1.6) 
