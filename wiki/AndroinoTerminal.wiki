@@ -43,3 +43,6 @@ Once you have everything installed, to run the application:
  # Open the Arduino IDE Serial Monitor
  # Start the the android App and push START/STOP button
 
+https://lh6.googleusercontent.com/-R4N2ry6loLc/T0ox3BQniXI/AAAAAAAAAMc/wbdeFM_8rxc/s569/ard_serial_monitor.png
+
+https://lh3.googleusercontent.com/--UDgopg2tYQ/T0ox7WJXAoI/AAAAAAAAAMk/G0pIGi1VMRc/s560/and_terminal.jpg
