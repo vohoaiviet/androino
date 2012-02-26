@@ -2,17 +2,13 @@
 
 = Androino Terminal =
 
-Add your content here.
+This application provides a basic example of the software that allows to communicate an android mobile phone with an arduino board. You can modify it at your convenience.
 
 ==Required parts==
- * Arduino
- * Android >1.5
- * Audio cable connector
- * Sparkfun 
-
-[http://code.google.com/ https://lh6.googleusercontent.com/-GLXbM3CiB-s/TzlwdwntQVI/AAAAAAAAAL4/Mx8DpniLyLw/s400/ArduinoProMini.jpg]
-
-https://lh5.googleusercontent.com/-XN-4_gi40uE/TzlwBRESRhI/AAAAAAAAALU/xtNPpuqYaCA/s512/10331-01.jpg
+ * [http://arduino.cc/en/Main/Hardware Arduino board]. Tested with Pro Mini and Duemilanove boards.
+ * Android mobile phone (minimum version 1.6) 
+ * Sparkfun's [http://www.sparkfun.com/products/10331 Audio jack modem for android] 
+ * Audio cable connector (for instance [http://www.amazon.com/Stereo-Circuit-ThinLine-Audio-Cable/dp/B004QOUGV4 TRRS audio cable]
 
 
 ==Hardware setup==
