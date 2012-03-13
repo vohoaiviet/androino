@@ -34,7 +34,7 @@ Download and install into the arduino board the [http://androino.googlecode.com/
 === Android APP===
 Install the Ardroino Terminal app into the mobile phone.
 
-http://chart.apis.google.com/chart?cht=qr&chs=230x230&chld=L&choe=UTF-8&chl=http%3A%2F%2Fandroino.googlecode.com%2Ffiles%2FAndroinoTerm.beta.b20120313.apk
+http://chart.apis.google.com/chart?cht=qr&chs=230x230&chld=L&choe=UTF-8&chl=http%3A%2F%2Fandroino.googlecode.com%2Ffiles%2FAndroinoTerm.beta.b20120313.apk.jpg
 
 == Putting all together ==
 
